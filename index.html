@@ -17,6 +17,13 @@
 
     <!-- FONT-AWESOME-CDN-LINK-SECTION -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- BOOTSTRAP-LINK-CDN-SECTION  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- MODAL-REQUIREMENTS-LINK | BOOTSTRAP  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -34,8 +41,8 @@
             <ul>
                 <a href="#"> <li> HOME </li> </a>
                 <a href="#aboutme"> <li> ABOUT ME </li> </a>
-                <a href="#"> <li> MY WORK </li> </a>
-                <a href="#"> <li> GALLERY </li> </a>
+                <a href="#mywork"> <li> MY WORK </li> </a>
+                <a href="#mygallery"> <li> GALLERY </li> </a>
                 <a href="#"> <li> HIRE ME </li> </a>
                 <a href="#"> <li> CONTACT ME </li> </a>
             </ul>
@@ -53,8 +60,7 @@
          
         <!-- ABOUTME-SECTION  -->
         <section id="aboutme">
-            <div class="scrollElement js-scroll">
-                <div class="information">
+                <div class="aboutme-main-text">
                     <h4> ABOUT ME </h4>
                     <h2> KNOW ME MORE </h2>
     
@@ -103,9 +109,122 @@
                 </div>
 
                 <div class="down-arrow">
-                    <i class="fa-solid fa-arrow-down"></i>
+                   <a href="#mywork"> <i class="fa-solid fa-arrow-down"></i> </a> 
+                </div>
+        </section>
+
+        <!-- MYWORK-SECTION -->
+        <section id="mywork">
+
+                <div class="mywork-main-text">
+                    <h4> MY WORK </h4>
+                    <h2> HOW CAN I HELP YOU IN BUILDING YOUR PROJECT </h2>
                 </div>
 
+                <!-- FLIP-CARD-1  -->
+                <div class="mywork-cards">
+                    <div class="explore-cards-container">
+                        <div class="explore-cards">
+                            <div class="transform-card">
+                                <div class="card-front">
+                                    <i class="fa-solid fa-palette fa-2xl"></i>
+                                    <!-- GRAPHICS DESIGN -->
+                                </div>
+                                <div class="card-back">
+                                    GRAPHICS DESIGN
+                                </div>
+                            </div>
+                    </div>
+    
+                    <!-- FLIP-CARD-2  -->
+                    <div class="explore-cards">
+                        <div class="explore-cards">
+                             <div class="transform-card">
+                                 <div class="card-front">
+                                    <i class="fa-solid fa-desktop fa-2xl"></i>
+                                    <!-- WEBPAGE DESIGN  -->
+                                </div>
+                                 <div class="card-back">
+                                       WEBPAGE DESIGN
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+    
+                    <!-- FLIP-CARD-3  -->
+                    <div class="explore-cards">
+                        <div class="explore-cards">
+                             <div class="transform-card">
+                                 <div class="card-front">
+                                    <i class="fa-solid fa-pen-ruler fa-2xl"></i>
+                                    <!-- UI/UX DESIGN  -->
+                                </div>
+                                 <div class="card-back">
+                                       UI / UX DESIGN
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+    
+                    <!-- FLIP-CARD-4  -->
+                    <div class="explore-cards">
+                        <div class="explore-cards">
+                             <div class="transform-card">
+                                 <div class="card-front">
+                                    <i class="fa-solid fa-video fa-2xl"></i>
+                                    <!-- VIDEO-EDITOR  -->
+                                </div>
+                                 <div class="card-back">
+                                        VIDEO EDITOR
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-link-button">
+                        <!-- BUTTON-TRIGGERING-THE-MODAL  -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            LET ME HEAR YOU
+                        </button>
+                        
+                        <!-- MAIN-MODAL  -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                   WRITE ME YOUR ISSUE
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <textarea cols="52" rows="3"></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                    CLOSE
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    SUBMIT
+                                </button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="down-arrow">
+                    <a href="#mygallery"> <i class="fa-solid fa-arrow-down"></i> </a> 
+                 </div>
+
+        </section>
+
+        <!-- MYGALLERY-SECTION -->
+        <section id="mygallery">
+            <div class="mygallery-main-text">
+                <h4> MY GALLERY </h4>
+                <h2> GO THROUGH SOME OF MY INCREDIBLE CLICKS </h2>
             </div>
         </section>
 
@@ -116,6 +235,10 @@
     <!-- JAVASCRIPT-SECTION  -->
     <!-- typed.js | CDN | LINK  -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- bootstrap | CDN | LINK  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- jquery | CDN | LINK  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <!-- app.js | LINK  -->
     <script type="text/javascript" src="scripts/app.js"> </script>
