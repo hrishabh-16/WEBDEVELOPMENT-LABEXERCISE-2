@@ -513,6 +513,128 @@ main ul a li {
     margin-left: 50px;
 }
 
+/* HIRE-ME-STYLE-SECTION */
+#hireme {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#hireme .parallax-header {
+
+    width: 100vw;
+    min-height: 50vh;
+
+    background-image:
+    linear-gradient(to bottom, rgba(16, 16, 17, 0.659), rgba(22, 21, 22, 0.653)),
+    url('resources/images/hire-me-image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 5%;
+
+}
+
+#hireme .parallax-header .hireme-main-text  {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+#hireme .parallax-header .hireme-main-text h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #209CEE;
+    border-radius: 10px;
+
+    background-color: #209CEE;
+
+    padding: 5px 10px;
+}
+
+#hireme .parallax-header .hireme-main-text h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+    color: white;
+
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+
+    transition: letter-spacing 0.6s ease;
+}
+
+#hireme .parallax-header .hireme-main-text a {
+    text-decoration: none;
+    color: white;
+
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+    border: 2px solid transparent;
+    border-radius: 10px;
+
+    padding: 10px 100px;
+    margin-top: 40px;
+
+    transition: background-color 0.6s ease;
+}
+
+#hireme .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#hireme .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 100px;
+
+    margin: 0px 5px;
+    margin-top: 100px;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    transition: background-color 0.3s ease;
+
+}
+
+#hireme .down-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hireme .down-arrow i {
+    text-decoration: none;
+    color: black;
+
+    scale: 1.5;
+
+    margin-top: 70px;
+
+    transition: scale 0.5s ease;
+}
+
 /* ANIMATIONS */
 @keyframes dropItDown {
     0% {
@@ -592,21 +714,23 @@ main nav .logo img:hover {
     cursor: pointer;
 }
 
-/* MEDIA-QUERIES */
-@media screen and (max-width: 540px) {
-
-    main nav .logo {
-        min-height: 5vh;
-    }
-
-    main nav .logo img {
-        width: 30px;
-        height: 30px;
-    }
-
-    main ul a li {
-        margin: 0px 5px;
-        padding: 5px 10px;
-    }
+#hireme .parallax-header .hireme-main-text h2:hover {
+    letter-spacing: 0px;
+    cursor: pointer;
 }
 
+#hireme .parallax-header .hireme-main-text a:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
+
+#hireme .card:hover {
+    cursor: pointer;
+    background-color: #209CEE;
+    color: white;
+}
+
+#hireme .down-arrow i:hover {
+    cursor: pointer;
+    scale: 3;
+}
