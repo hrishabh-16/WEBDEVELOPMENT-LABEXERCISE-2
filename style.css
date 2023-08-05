@@ -506,6 +506,13 @@ main ul a li {
     transition: letter-spacing 0.6s ease;
 }
 
+#mygallery #carouselExample .carousel-inner .carousel-item  {
+    width: 1440px;
+    height: 500px;
+
+    margin-left: 50px;
+}
+
 /* ANIMATIONS */
 @keyframes dropItDown {
     0% {
