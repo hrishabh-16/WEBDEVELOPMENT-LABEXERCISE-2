@@ -771,6 +771,18 @@ main ul a li {
     color: #209CEE;
 }
 
+#footer .links a {
+    text-decoration: none;
+}
+
+#footer .links a i {
+    color: white;
+
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+
+}
+    
 
 /* ANIMATIONS */
 @keyframes dropItDown {
@@ -885,4 +897,9 @@ main nav .logo img:hover {
 #contactme .down-arrow a:hover {
     cursor: pointer;
     scale: 3;
+}
+
+#footer .links a i:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
 }
