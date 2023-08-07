@@ -1,31 +1,22 @@
-OBJECTIVES OF THIS ASSIGNMENT 
 
---> Developemnt of personal website and publish it online.
+# SUVAJIT KARMAKAR | PORTFOLIO - WEBSITE
 
---> Points to be taken care of : 
-
-    --> Proper "Homepage" with navigation (fontawesome icons and carousel) (HTML5 , CSS3 & BOOTSTRAP).
-
-    --> Photo gallery using flex-box layout.
-
-    --> Registration form / contact form using Bootstrap.
-
-    --> Pages must include with HEROS and MODALS.
-
-    --> Parallax website design.
-
---> Techonology used : 
-    
-    --> HTML5
-    --> CSS3
-    --> JAVASCRIPT
-
-    --> BOOTSTRAP
-    --> FONTAWESOME
+Learn | Understand | Work | Repeat 
 
 
-#PAGEPRIMARYCOLOR
-#209CEE
+## AUTHORS
 
-#DEFAULTFONTFORTHEPAGE
-1vw
+- [@SUVAJIT KARMAKAR](https://github.com/SUVAJITKARMAKAR)
+
+
+## BADGES
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+![Logo](resources/images/logo-image.png)
+
