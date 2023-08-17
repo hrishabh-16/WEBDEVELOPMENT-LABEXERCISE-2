@@ -1,7 +1,7 @@
 
 # SUVAJIT KARMAKAR | PORTFOLIO - WEBSITE
 
-Learn | Understand | Work | Repeat 
+Learn | Understand | Work | Repeat | Practice
 
 
 ## AUTHORS
